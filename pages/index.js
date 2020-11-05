@@ -6,7 +6,7 @@ import Slide from './components/slide'
 import Rap from './components/productos'
 import Garantias from './components/garantias'
 import Parners from './components/partners'
-
+import Footer from './components/footer'
 
 export default function Home() {
   return (
@@ -30,21 +30,7 @@ export default function Home() {
       <Rap />
       <p style={{color: "red"}}> ver más  </p>
       <Parners />
-
-      <main className={styles.main}>
-      
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }

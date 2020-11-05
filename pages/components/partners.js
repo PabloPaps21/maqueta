@@ -16,10 +16,12 @@ function Partners() {
           background-color: #f6f7f7;
           display: flex;
           justify-content: space-around;
+          align-items: center;
           height: 160px;
         }
         img {
           width: 13%;
+          height: 95px;
           padding: 5px 10px;
         }
         @media (max-width: 600px) {

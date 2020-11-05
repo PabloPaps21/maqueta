@@ -103,6 +103,10 @@ export default function ImgMediaCard() {
         align-item: center;
         flex-wrap: wrap;
         padding: 20px 30px;
+        
+      }
+      .@media (max-width: 600px) {
+
       }
     `}</style>
     </div>

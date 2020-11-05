@@ -27,7 +27,7 @@ export default function ImgMediaCard() {
             component="img"
             alt="Contemplative Reptile"
             height="140"
-            image="https://res.cloudinary.com/djgqc9rrx/image/upload/v1604541575/prueba/1_kj8jqc.png"
+            image="https://res.cloudinary.com/djgqc9rrx/image/upload/v1604541574/prueba/10_zye4wp.png"
             title="Contemplative Reptile"
           />
           <CardContent>
@@ -54,7 +54,7 @@ export default function ImgMediaCard() {
             component="img"
             alt="Contemplative Reptile"
             height="140"
-            image="https://res.cloudinary.com/djgqc9rrx/image/upload/v1604541581/prueba/2_lnygtr.png"
+            image="https://res.cloudinary.com/djgqc9rrx/image/upload/v1604541572/prueba/11_ngrotj.png"
             title="Contemplative Reptile"
           />
           <CardContent>
@@ -81,7 +81,7 @@ export default function ImgMediaCard() {
             component="img"
             alt="Contemplative Reptile"
             height="140"
-            image="https://res.cloudinary.com/djgqc9rrx/image/upload/v1604541594/prueba/3_vqejkj.png"
+            image="https://res.cloudinary.com/djgqc9rrx/image/upload/v1604541573/prueba/12_zepfgf.png"
             title="Contemplative Reptile"
           />
           <CardContent>

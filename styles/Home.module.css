@@ -113,10 +113,47 @@
 .logo {
   height: 1em;
 }
-
+.vendidos {
+  width: 64%;
+  color: #5349db;
+  margin-left: 5px;
+  border-bottom: 2px solid #5349db;
+}
+.ver {
+  color: #013367;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .vendidos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .ver {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+    .vendidos {
+      width: 100%;
+      display: flex;
+    justify-content: center;
+  }
+  .ver {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    } 
   }
 }

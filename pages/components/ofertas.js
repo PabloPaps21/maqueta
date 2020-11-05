@@ -37,6 +37,19 @@ function Ofertas() {
         justify-content: center;
         width: 260px
       }
+      @media (max-width: 600px) {
+        .banner{
+          display: flex;
+          flex-direction: column;
+          height: 158px;
+        }
+        .dptos{
+          flex-direction: column;
+        }
+        .dptos > p{
+          padding: 0 10px;
+        }
+      }
       `}</style>
     </>
   )
